@@ -106,7 +106,7 @@ app.all(
           status: 'success',
           message: 'Account Validated.',
           token,
-          url: '',
+          url: 'haxpsbackend.vercel.app/player/growid/checktoken|liner',
           accountType: 'growtopia',
         }),
       );

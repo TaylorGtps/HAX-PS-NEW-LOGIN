@@ -227,7 +227,7 @@ app.all(
           status: 'success',
           message: 'Account Validated.',
           token,
-          url: '',
+          url: 'https://login.growtopiagame.com/player/growid/checktoken|liner',
           accountType: 'growtopia',
           accountAge: 2,
         }),
